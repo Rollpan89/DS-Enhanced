@@ -1,0 +1,67 @@
+.online {
+    padding-left: 1.5em;
+    position: relative;
+}
+
+.online::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+body.discreet main img,
+body.discreet #customheadercontentcontainer img,
+body.discreet #v5footertd img,
+body.discreet .hidewhendiscrete {
+    display: none;
+}
+
+
+#html-styling {
+    display: flex;
+}
+
+#html-styling div {
+    padding: 5px 10px;
+    margin-right: 1px;
+    background: #fafafa;
+    color: #000;
+    cursor: pointer;
+}
+
+#html-styling div:hover {
+    background: #ccc;
+}
+
+#html-styling .image {
+    position: relative;
+}
+
+#html-styling .image-url {
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+#html-preview {
+    padding: 1rem 0;
+}
+
+#html-preview img {
+    display: block;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.blocked-user {
+    background: #480c0c;
+    padding: .5rem;
+    font-style: italic;
+}

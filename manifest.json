@@ -1,0 +1,51 @@
+{
+    "name": "DS Enhanced BETA",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Tillåter dig att ändra viss funktionalitet och utseende på DS.",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "options_page": "src/options_custom/index.html",
+    "options_ui": {
+        "page": "src/options_custom/index.html",
+        "open_in_tab": false
+    },
+    "action": {
+        "default_popup": "src/options_custom/index.html"
+    },
+    "permissions": [
+        "notifications",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.darkside.se/*"
+            ],
+            "css": [
+                "src/inject/inject.css"
+            ]
+        },
+        {
+            "matches": [
+                "https://www.darkside.se/*"
+            ],
+            "js": [
+                "src/inject/inject.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "src/inject/*"
+            ],
+            "matches": [
+                "https://www.darkside.se/*"
+            ]
+        }
+    ]
+}
