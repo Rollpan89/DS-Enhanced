@@ -1,10 +1,10 @@
 #### Denna version innehåller:
 
-*   [Förbättrad blockering](blockering)
-*   [Enkel HTML-infogning i text med förhandsgranskning](html)
-*   [Onlinestatus i inkorgen](onlinestatus)
-*   [Exportera event till kalendern](exportera)
-*   [Dölj _alla_ bilder i diskret läge](dold)
+*   [Förbättrad blockering](#blockering)
+*   [Enkel HTML-infogning i text med förhandsgranskning](#html)
+*   [Onlinestatus i inkorgen](#onlinestatus)
+*   [Exportera event till kalendern](#exportera)
+*   [Dölj _alla_ bilder i diskret läge](#dold)
 
 _Pluginet är under utveckling och kommer att förändras kontinuerligt. Större buggar kan rapporteras [här](https://github.com/Rollpan89/DS-Enhanced/issues)._
 
