@@ -24,6 +24,7 @@ Klicka bara på "Exportera den här sidans blockeringslista".
 ## Enkel HTML-infogning i text
 Man kan även infoga bilder precis var man vill i texten, men det måste vara en bild som finns på Internet.
 ![HTML-infogning](https://i.imgur.com/RNctZsg.png)
+&nbsp;
 För att använda en bild på datorn: använd den inbyggda funktionen, då läggs bilden längst ner i inlägget.
 
 &nbsp;
